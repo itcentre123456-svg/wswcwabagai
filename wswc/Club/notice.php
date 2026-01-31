@@ -1,0 +1,7 @@
+<div class="notice-gallery">
+         <img src="Club/tapta_copy1.jpg" alt="Notice Image" />
+          <p>Online Booking for Tapta Musical Night:  
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc91Cdpn6GDN1JIdmP_Lt6O05A5HisQLS2ZybqoJqi2jW9wmg/viewform?usp=header" target="_blank" rel="noopener noreferrer">Visit Website</a>
+</div>
+
+      

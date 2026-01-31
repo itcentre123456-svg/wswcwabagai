@@ -1,0 +1,164 @@
+<?php
+// Public-facing page — no login required
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>THE WABAGAI SOCIAL WELFARE CLUB, WABAGAI</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+      color: #333;
+    }
+    header > div {
+      display: flex;
+      align-items: center;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 20px 15px;
+      background-color: #004080;
+      color: white;
+      text-align: center;
+    }
+    #logo {
+      max-width: 150px;
+      height: auto;
+    }
+    header div > div {
+      margin-left: 15px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+    }
+    header p {
+      margin: 5px 0 0 0;
+      font-weight: bold;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: white;
+      padding: 20px 30px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    #gallery {
+      display: flex;
+      justify-content: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    #gallery img {
+      max-width: 180px;
+      border: 2px solid #004080;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+    #gallery img:hover {
+      transform: scale(1.05);
+    }
+    #notice {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 15px;
+      background-color: #e7f0fd;
+      border-left: 5px solid #004080;
+      font-size: 1em;
+    }
+    #notice h2 {
+      margin: 0 auto 15px auto;
+      color: #004080;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 8px;
+      font-size: 1.5em;
+      width: fit-content;
+    }
+    .notice-gallery {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .notice-gallery img {
+      max-width: 200px;
+      height: auto;
+    }
+    .notice-text {
+      flex: 1;
+      font-size: 1em;
+      line-height: 1.5;
+    }
+    footer {
+      background-color: #004080;
+      color: white;
+      text-align: center;
+      padding: 12px 0;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+    footer a {
+      color: #ffeb3b;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <img id="logo" src="Club/club_logo.jpg" alt="Club Logo" />
+      <div>
+        <h1>OFFICE OF THE</h1>
+        <h1>WABAGAI SOCIAL WELFARE CLUB, WABAGAI</h1>
+        <p>Wabagai Tera Urak, Kakching District, Manipur - 795103</p>
+        <p>Estd. 1958</p>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    📍 <a href="https://maps.google.com/?q=Wabagai+Tera+Urak,+Kakching+District,+Manipur" 
+          target="_blank" rel="noopener noreferrer">View on Google Maps</a>
+
+    <div id="gallery">
+      <img src="Club/gallery/1718803270575.jpeg" alt="Club Event">
+      <img src="Club/gallery/1718803270581.jpeg" alt="Club Event">
+      <img src="Club/gallery/1718803270596.jpeg" alt="Club Event">
+      <img src="Club/gallery/1718803270613.jpeg" alt="Club Event">
+      <img src="Club/gallery/1718803270738.jpeg" alt="Club Event">
+    </div>
+  </div>
+
+  <div id="notice">
+    <h2>Notice</h2>
+    <div class="notice-gallery">
+      <img src="Club/tapta_copy1.jpg" alt="Notice Image" />
+      <div class="notice-text">
+        <p>
+          Online Booking for Tapta Musical Night:<br />
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSc91Cdpn6GDN1JIdmP_Lt6O05A5HisQLS2ZybqoJqi2jW9wmg/viewform?usp=header" 
+             target="_blank" rel="noopener noreferrer">Visit Website</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 THE WABAGAI SOCIAL WELFARE CLUB. All rights reserved.<br>
+  </footer>
+
+</body>
+</html>
